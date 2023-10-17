@@ -1,0 +1,36 @@
+celcius = 400 - 273
+
+
+print(f"400 Kelvin {celcius:.2f} Celcius'a eşittir.")
+
+
+pi = 3.14
+
+yaricap = 1.5
+
+
+alan = pi * yaricap * yaricap
+
+
+cevre = 2 * pi * yaricap
+
+print(f"Dairenin alanı {alan:.2f} cm²'dir.")
+print(f"Dairenin çevresi {cevre:.2f} cm'dir.")
+
+
+sayi = int(input("Dört basamaklı bir sayı giriniz: "))
+a= sayi // 1000
+B = sayi % 10
+toplam = a + B
+
+print(f"Girilen sayının ilk ve son basamağının toplamı {toplam}'dir.")
+
+
+hiz = 110
+yol = 500
+
+sure = yol / hiz
+saat = int(sure)
+dk = (sure - saat) * 60
+
+print("Araba", "500 km yolu", saat, "saat", dk, "dakikada gider.")
